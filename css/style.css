@@ -23,6 +23,7 @@ ul {
 :root {
   --main_color: #ffffff;
   --color: #2e2f42;
+  --color: #4d5ae5;
 }
 
 /**----------------HEADER-------------**/
@@ -46,6 +47,12 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+.header-top-links:hover,
+.header-top-links:focus {
+  color: #404bbf;
 }
 
 .header-top-links span {
@@ -166,17 +173,17 @@ ul {
 
 /**----------------FOOTER-------------**/
 
-.footer-logo {
+.footer-logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #f4f4fd;
   text-transform: uppercase;
 }
 
-.footer-logo span {
+.footer-logo-link span {
   color: #4d5ae5;
 }
 
