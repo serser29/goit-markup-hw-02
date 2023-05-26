@@ -24,6 +24,8 @@ ul {
   --main_color: #ffffff;
 }
 
+/**----------------HEADER-------------**/
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -53,6 +55,8 @@ ul {
   color: #404bbf;
 }
 
+/**----------------ADDRESS-------------**/
+
 .address {
   font-style: normal;
 }
@@ -77,6 +81,8 @@ ul {
   color: #434455;
 }
 
+/**----------------HERO-------------**/
+
 .hero {
   background: #2e2f42;
 }
@@ -87,9 +93,12 @@ ul {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+
+/**----------------BUTTON-------------**/
 
 .hero-button {
   font-family: inherit;
@@ -99,11 +108,14 @@ ul {
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
+  cursor: pointer;
 }
 
-.hero-button:hover {
-  background: #404bbf;
+.hero-button:hover .hero-button:focus {
+  background-color: #404bbf;
 }
+
+/**----------------OUR TEAM-------------**/
 
 .ourteam-plan-list {
   font-weight: 500;
@@ -119,6 +131,8 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/**----------------OUR INFO-------------**/
 
 .our-info {
   font-weight: 700;
@@ -142,6 +156,8 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/**----------------FOOTER-------------**/
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
