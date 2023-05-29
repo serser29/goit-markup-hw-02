@@ -148,6 +148,10 @@ ul {
 
 /**----------------OUR INFO-------------**/
 
+.section-ourteam {
+  background-color: #f4f4fd;
+}
+
 .our-info {
   font-weight: 700;
   font-size: 36px;
@@ -156,6 +160,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .our-info-name {
