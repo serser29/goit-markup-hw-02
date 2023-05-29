@@ -153,6 +153,10 @@ ul {
   background-color: #f4f4fd;
 }
 
+.infolist {
+  background-color: #ffffff;
+}
+
 .our-info {
   font-weight: 700;
   font-size: 36px;
@@ -170,7 +174,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  background-color: #ffffff;
 }
 .our-info-position {
   font-weight: 400;
