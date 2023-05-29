@@ -25,6 +25,7 @@ ul {
   --color: #2e2f42;
   --web-color: #4d5ae5;
   --foot-par: #f4f4fd;
+  --portfolio: #434455;
 }
 
 /**----------------HEADER-------------**/
@@ -217,16 +218,36 @@ ul {
   color: var(--foot-par);
 }
 
+/**-------------BTTNS---------------**/
+
 .bttns-name {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
+  cursor: pointer;
+  color: var(--web-color);
+  background: var(--foot-par);
 }
 
-.bttns-name:hover {
+.bttns-name:hover,
+.bttns-name:focus {
   background: #404bbf;
-  color: #ffffff;
+}
+
+.ourteam-plan-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color);
+}
+
+.ourteam-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--portfolio);
 }
