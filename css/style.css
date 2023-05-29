@@ -77,6 +77,11 @@ ul {
   color: #434455;
 }
 
+.address-cont-mail:hover,
+.address-cont-mail:focus {
+  color: #404bbf;
+}
+
 .address-cont-mail:active {
   color: #404bbf;
 }
@@ -87,6 +92,11 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.address-cont-phone:hover,
+.address-cont-phone:focus {
+  color: #404bbf;
 }
 
 /**----------------HERO-------------**/
