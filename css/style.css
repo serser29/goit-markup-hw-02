@@ -38,7 +38,7 @@ ul {
   text-transform: uppercase;
 }
 
-.header-logo span {
+.nav-head-log span {
   color: var(--color);
 }
 
@@ -46,7 +46,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2f42;
+  color: var(--color);
   letter-spacing: 0.02em;
 }
 
