@@ -233,6 +233,11 @@ ul {
 
 .bttns-name:hover,
 .bttns-name:focus {
+  color: #ffffff;
+}
+
+.bttns-name:hover,
+.bttns-name:focus {
   background: #404bbf;
 }
 
