@@ -38,7 +38,7 @@ ul {
   text-transform: uppercase;
 }
 
-.nav-head-log span {
+.nav-head-log {
   color: var(--color);
 }
 
