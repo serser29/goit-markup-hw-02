@@ -24,6 +24,7 @@ ul {
   --main_color: #ffffff;
   --color: #2e2f42;
   --web-color: #4d5ae5;
+  --foot-par: #f4f4f4;
 }
 
 /**----------------HEADER-------------**/
@@ -180,18 +181,28 @@ ul {
 
 /**----------------FOOTER-------------**/
 
+.footer {
+  background-color: var(--color);
+}
+
 .footer-logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #f4f4fd;
+  color: var(--web-color);
   text-transform: uppercase;
 }
 
-.footer-logo-link span {
-  color: #4d5ae5;
+.footer-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
 }
 
 .footer-logo-text {
@@ -199,7 +210,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--foot-par);
 }
 
 .bttns-name {
